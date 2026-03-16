@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+header,
+footer {
+    background-color: #077b9e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+main {
+    align-items: center;
+    padding: 20px;
+    background-color: hsl(0, 2%, 24%);
+}
+
+label {
+    margin-top: 10px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+section > div {
+    border: 2px solid rgb(190, 181, 181);
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    font-size: 30px;
+}
